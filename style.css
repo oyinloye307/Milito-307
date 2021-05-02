@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+
+
+
+}
+.body-ody{
+
+    background-image: url(img/victor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mmm-banner {
+    display: none;
+
+
+}
+
+.img-info{
+    width:100%;
+
+}
+
+.img-info h2 {
+   padding: 30px 30px 20px;
+   font-family: arial;
+   font-size: 50px;
+   color: rgb(253, 252, 252);
+   line-height: 44px;
+   text-shadow:rgb(126, 125, 123);
+
+   
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(250, 246, 246);
+    line-height: 24px;
+    text-shadow: rgb(126, 125, 123);
+    
+ }
+
+ .mmm-lagos {
+     width: 100%;
+
+ }
+ 
+
+@media only screen and (min-width:768px){
+
+    .mmm-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+        height: 130px;
+
+    
+    
+    }
+
+    .wrapper {
+        width: 600px;
+            margin: 0 auto;
+        }
+
+        .img-info h2 {
+            padding: 20px 0px 0px;
+         
+            
+         }
+         
+         .img-info p {
+             padding: 20px 0px 0px;
+             
+          }
+
+          .mmm-lagos {
+              padding-top: 30px;
+       
+          }
+
+
+}
+
+@media only screen and (min-width:1000px){
+    .wrapper{
+        width: 1000px;
+
+    }
+    .img-info{
+        width: 50%;
+        float: right;
+
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+     
+        
+     }
+     
+     .img-info p {
+         padding: 20px 0px 0px 30px;
+         
+      }
+
+
+
+
+    .mmm-lagos{
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+    
+
+    
+
+                
+
+            
